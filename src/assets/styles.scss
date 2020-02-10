@@ -1,6 +1,22 @@
+$dark: #110A40;
+$secondary: #29145D;
+$primary: #421E79;
+$light: #5A2896;
+
+$body-bg: $dark;
+
+$theme-colors: (
+  "dark": #110A40,
+  "secondary": #29145D,
+  "primary": #421E79,
+  "light": #5A2896
+);
+
+$grid-gutter-width: 0px;
+
+
+
+
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 
-h1 {
-    color: orange !important;
-}

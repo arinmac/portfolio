@@ -1,5 +1,5 @@
 <template>
-    <h4>Homepage baby!</h4>
+    <h4 class="text-primary">Homepage baby!</h4>
 </template>
 <script>
 export default {
