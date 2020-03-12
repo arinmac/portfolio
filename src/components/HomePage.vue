@@ -15,16 +15,16 @@
         <b-row class="p-0 m-0 pt-5 mt-5"> 
 
             <b-col cols="3" class="pl-0 ml-0" >
-                <div class="inlineblock speachshape"></div>
+                <SpeechBox color="red"></SpeechBox>
             </b-col>
             <b-col cols="3" class="pl-0 ml-0" >
-                <div class="inlineblock speachshape"></div>
+                <SpeechBox></SpeechBox>
             </b-col>
             <b-col cols="3" class="pl-0 ml-0" >
-                <div class="inlineblock speachshape"></div>
+                <SpeechBox></SpeechBox>
             </b-col>
             <b-col cols="3" class="pl-0 ml-0" >
-                <div class="inlineblock speachshape"></div>
+                <SpeechBox></SpeechBox>
             </b-col>
 
         </b-row>
@@ -36,8 +36,10 @@
 
 </template>
 <script>
+import SpeechBox from './SpeechBox'
 export default {
-    name: 'HomePage'
+    name: 'HomePage',
+    components: {SpeechBox}
 }
 </script>
 
@@ -64,7 +66,6 @@ export default {
  .speachshape{
     width: inherit;
     height: 50px;
-    
     background: $light;
     position: relative;
     margin: 10px auto;
