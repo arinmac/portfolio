@@ -2,21 +2,156 @@ $dark: #110A40;
 $secondary: #29145D;
 $primary: #421E79;
 $light: #5A2896;
-
-$body-bg: $dark;
+$white: #e6e6e6;
+$grey: #cccccc;
+$green: #d2fed4;
 
 $theme-colors: (
   "dark": #110A40,
   "secondary": #29145D,
   "primary": #421E79,
-  "light": #5A2896
+  "light": #5A2896,
+  "warning": #d2fed4
 );
 
-$grid-gutter-width: 0px;
+$body-bg: $dark;
+$grid-gutter-width: 50px;
+$mokoko: mokoko, serif; 
+$objektiv: objektiv-mk1, sans-serif;
+  
+
+
+
+// ------------------------------------------------------------------------------ //
+
+
+.divider{
+  border-bottom: 1px solid $green;
+}
+
+h1, h3, h5 {
+  font-family: $mokoko;
+  font-weight: 700 !important;
+  color: $white;
+  
+}
+
+h2, h4, h6 {
+  font-family: $objektiv;
+  font-weight: 300 !important;
+  color: $white;
+  
+}
+
+.MokokoRegular{
+font-family: mokoko, serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.MokokoItalic{
+font-family: mokoko, serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.MokokoMedium{
+font-family: mokoko, serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.MokokoBold{
+font-family: mokoko, serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.MokokoBoldItalic{
+font-family: mokoko, serif;
+font-weight: 700;
+font-style: italic;
+}
+
+
+.MokokoExtraBold{
+font-family: mokoko, serif;
+font-weight: 800;
+font-style: normal;
+}
 
 
 
 
+
+
+
+
+
+
+.ObjektivMk1Thin{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 200;
+font-style: normal;}
+
+
+.ObjektivMk1Light{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 300;
+font-style: normal;}
+
+
+.ObjektivMk1Italic{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 400;
+font-style: italic;}
+
+
+.ObjektivMk1Regular{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 400;
+font-style: normal;}
+
+
+.ObjektivMk1Medium{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 500;
+font-style: normal;}
+
+
+.ObjektivMk1Bold{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: normal;}
+
+
+.ObjektivMk1BoldItalic{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 700;
+font-style: italic;}
+
+
+.ObjektivMk1XBold{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 800;
+font-style: normal;}
+
+
+.ObjektivMk1Black{
+font-family: objektiv-mk1, sans-serif;
+font-weight: 900;
+font-style: normal;} 
+
+
+
+
+
+
+
+
+// __________________IMPORTS MUST COME AFTER OVERRIDES_______________________ //
+
+
+@import url("https://use.typekit.net/kih6brn.css");
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
-

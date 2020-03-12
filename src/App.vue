@@ -1,8 +1,8 @@
 <template>
-  <div class="m-4" id="app">
-    <Header></Header>
-    <router-view></router-view>
-  </div>
+  <b-container fluid class="m-4" id="app">
+    <Header ></Header>
+    <router-view ></router-view>
+  </b-container>
 </template>
 
 <script>
@@ -17,17 +17,19 @@ export default {
 }
 </script>
 
-<style @lang="scss">
+<style lang="scss">
+@import '/../src/assets/styles.scss';
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-  
+  color: $white;
+  padding: 50px 150px;
+  margin: 0 !important;
 }
+
 
 
 </style>
