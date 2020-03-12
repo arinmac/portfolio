@@ -74,15 +74,13 @@ export default {
 
 .speachshape:after {
     content: "";
-    background-color: inherit;  
     width: 0;
     height: 0;
     position: absolute;
     bottom: -12px;
     left: 0px;
     border-right:41px solid transparent;
-    border-top: 13px solid;
-    border-color: $light;
+    border-top: 13px solid $light;
     z-index: 20;
 
 }
