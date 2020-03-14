@@ -52,7 +52,7 @@
     </b-row>
         <b-row>
           <b-col>
-            <div :class="kitcatActive?'kitcatBg':''"></div>
+            <div class="kitcatdiv" :class="kitcatActive?'kitcatBg':''"></div>
           </b-col>
         </b-row>
         
@@ -161,16 +161,19 @@ export default {
     }
 
     .kitcatBg{
-      background-image: url('../assets/kitcat.svg');
-      height: 100%;
-      width:100%;
+      background-image:  url('../assets/kitcat.svg')  ;
+      // background-repeat: repeat;
+   
       position: fixed;
       top:0;
-      left:0;
+      left:0px;
       z-index: -10;
 
     }
     
-    
+    .kitcatdiv{
+      width: 100%;
+      height: 100%;
+    }
 
 </style>
