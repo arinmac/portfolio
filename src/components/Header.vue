@@ -4,8 +4,8 @@
   <b-row>
     <b-col class="d-flex justify-content-center divider pb-4">
       <b-navbar class="p-0 m-0" toggleable="lg" vertical type="dark" variant="dark">
-        <b-navbar-brand class="p-0 m-0" href="#">
-            <b-img  width="150" class="d-flex justify-content-center" src="../assets/HORIZONTAL.svg" alt="arin LOGO"></b-img>
+        <b-navbar-brand class="p-0 m-0" href="/">
+            <b-img  width="115" class="d-flex justify-content-center" style="opacity:100%;" src="../assets/HORIZONTAL.svg" alt="arin LOGO"></b-img>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

@@ -14,6 +14,35 @@ $theme-colors: (
   "warning": #d2fed4
 );
 
+
+
+.light{
+  color: $light;
+}
+
+.primary{
+  color: $primary;
+}
+
+.secondary{
+  color: $secondary;
+}
+
+.dark{
+ color: $dark;
+}
+
+.green{
+ color: $green;
+}
+
+
+
+
+
+
+
+
 $body-bg: $dark;
 $grid-gutter-width: 50px;
 $mokoko: mokoko, serif; 
@@ -25,6 +54,8 @@ $objektiv: objektiv-mk1, sans-serif;
 // ------------------------------------------------------------------------------ //
 
 
+
+
 .divider{
   border-bottom: 1px solid $green;
 }
@@ -33,14 +64,22 @@ h1, h3, h5 {
   font-family: $mokoko;
   font-weight: 700 !important;
   color: $white;
-  
 }
 
 h2, h4, h6 {
   font-family: $objektiv;
   font-weight: 300 !important;
   color: $white;
-  
+}
+
+h1{
+  font-size: 3em !important;
+}
+
+h6{
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 0.4em !important;
 }
 
 .MokokoRegular{
